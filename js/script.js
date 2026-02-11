@@ -7,10 +7,8 @@ const websiteData = {
     aboutUs: {
         description: "Key Solutions is a leading technology partner dedicated to transforming businesses through innovative digital solutions. With over 15 years of experience, we've helped hundreds of organizations across various industries achieve their digital transformation goals.",
         stats: [
-            { number: "500+", label: "Projects Completed" },
-            { number: "15+", label: "Years Experience" },
-            { number: "98%", label: "Client Satisfaction" },
-            { number: "50+", label: "Team Members" }
+            { number: "3", label: "Major Continets" },
+            { number: "16+", label: "Countries Deployed" },
         ]
     },
 
@@ -75,28 +73,16 @@ const websiteData = {
     // Why Choose Us Section Data
     whyChooseUs: [
         {
-            title: "Expert Team",
-            description: "Our team of certified professionals brings deep expertise across multiple technologies and industries."
+            title: "Security by Design",
+            description: "End-to-end encryption, biometric integration, and banking-grade security standards."
         },
         {
-            title: "Proven Track Record",
-            description: "Successfully delivered 500+ projects with a 98% client satisfaction rate across diverse sectors."
+            title: "Proven Scale",
+            description: "Handling millions of transactions daily accross 16 countries and major telco networks."
         },
         {
-            title: "Innovation First",
-            description: "We stay ahead of technology trends to provide cutting-edge solutions that future-proof your business."
-        },
-        {
-            title: "24/7 Support",
-            description: "Round-the-clock technical support and maintenance to ensure your systems run smoothly."
-        },
-        {
-            title: "Agile Methodology",
-            description: "Flexible, iterative approach ensuring faster delivery and better alignment with your goals."
-        },
-        {
-            title: "Cost Effective",
-            description: "Competitive pricing with transparent costs and no hidden fees, maximizing your ROI."
+            title: "Rapid Deployment",
+            description: "Modular architecture allows fast implementation and seamless legacy integration."
         }
     ],
 
