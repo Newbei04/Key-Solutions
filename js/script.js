@@ -1,7 +1,3 @@
-// ===================================================================
-// EASY EDIT DATA - Modify the content below to update your website
-// ===================================================================
-
 const websiteData = {
     // About Us Section Data
     aboutUs: {
@@ -17,30 +13,35 @@ const websiteData = {
         {
             icon: "bi-key-fill",
             title: "Pin Generation",
+            client: "Zain Kuwait",
             description: "Automated, random, and secure PIN createion for prepaid scratch cards with anti-collision logic.",
-            features: ["Unique and random", "Batch Control and Audit", "Role-Based Security"]
+            features: ["Unique and random", "Batch Control and Audit", "Role-Based Security"],
         },
         {
             icon: "bi-lock-fill",
             title: "PIN Encryption",
+            client: "Smart Communications",
             description: "End-to-end encryption and decryption engine ensuring secure PIN transport and 2FA security.",
             features: ["Automated Encryption", "Secure Decryption", "Authentication Engine"]
         },
         {
             icon: "bi-wallet-fill",
             title: "E-wallet and E-loading",
+            client: "16 countries",
             description: "Comprehensive digital wallet platform with agent networks, deployed in 16 countries.",
             features: ["Comprehensive E-Wallet", "E-loading Engine", "Agent and Merchant Network"]
         },
         {
             icon: "bi-ticket-perforated-fill",
             title: "Scratch and Match",
+            client: "7-Eleven",
             description: "Gamified promotional systems with secure validation logic and real-time winner verification.",
             features: ["Anti-Fraud Security", "Fairness Logic", "Campaign Analytics"]
         },
         {
             icon: "bi-star-fill",
             title: "Loyalty System",
+            client: "I-Foods Group",
             description: "Multi-brand rewards program integrating POS, mobile apps, and CRM for customer retention.",
             features: ["Dynamic Tier Management", "Real-time POS integration", "Customer Analytics"]
         },
@@ -53,18 +54,21 @@ const websiteData = {
         {
             icon: "bi-heart-pulse-fill",
             title: "Indigent Medical Cards",
+            client: "Aklan Provincial Government",
             description: "Healthcare beneficiary tracking system with allocation management for government aid.",
             features: ["Hospital Integration", "On-site Issuance", "Digital Financial Services"]
         },
         {
             icon: "bi-heart-pulse-fill",
             title: "Multi-Purpose LGU cards",
+            client: "City of Makati and City of Manila",
             description: "Citizen ID system combining biometrics, payments, and access to city services. ",
             features: ["KYC & Biometrics", "Secure On-site Issuance", "Financial Inclusion"]
         },
         {
             icon: "bi-person-vcard-fill",
             title: "GPS Tracking System",
+            client: "I-Foods Group",
             description: "Real-time fleet and asset monitoring with geofencing, history playback, and alerts.",
             features: ["Total Visibility", "Route Playback and Analysis", "Maintenance Scheduling"]
         }
@@ -94,9 +98,6 @@ const websiteData = {
     }
 };
 
-// ===================================================================
-// AUTO-GENERATE SECTIONS - No need to edit below this line
-// ===================================================================
 
 // Generate About Section
 function generateAbout() {
@@ -119,10 +120,14 @@ function generateSolutions() {
     solutionsContainer.innerHTML = websiteData.solutions.map(solution => `
         <div class="col-md-6 col-lg-4">
             <div class="solution-card">
-                <div class="solution-icon">
-                    <i class="bi ${solution.icon}"></i>
+                <div class="solution-header inline">
+                    <div class="solution-icon">
+                        <i class="bi ${solution.icon}"></i>
+                    </div>
+                    <h3 class="solution-title">${solution.title}</h3>
                 </div>
-                <h3 class="solution-title">${solution.title}</h3>
+
+                ${solution.client ? `<span class="solution-client">${solution.client}</span>` : ''}
                 <p class="solution-description">${solution.description}</p>
                 <ul class="solution-features">
                     ${solution.features.map(feature => `<li>${feature}</li>`).join('')}
@@ -131,6 +136,7 @@ function generateSolutions() {
         </div>
     `).join('');
 }
+
 
 // Generate Why Choose Us Section
 function generateWhyChooseUs() {

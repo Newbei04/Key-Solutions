@@ -274,11 +274,64 @@ section {
     font-size: 32px;
     color: white;
 }
+.solution-header.inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;             
+    margin-bottom: 24px;
+    position: relative;
+    width: 100%;
+}
 
-.solution-title {
+.solution-header.inline .solution-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+
+.solution-header.inline .solution-icon i {
     font-size: 24px;
+    color: var(--primary-blue);
+}
+
+.solution-header.inline .solution-title {
+    font-size: 20px;
     font-weight: 600;
+    margin-bottom: 0;
+    color: var(--text-dark);
+}
+
+.solution-client {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--light-blue);
+    background: rgba(59, 130, 246, 0.15);
+    padding: 6px 12px;
+    border-radius: 20px;
+    line-height: 1;
     margin-bottom: 16px;
+}
+
+.solution-icon {
+    width: 64px;
+    height: 64px;
+    background: linear-gradient(135deg, var(--primary-blue) 0%, var(--light-blue) 100%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.solution-icon i {
+    font-size: 32px;
+    color: white;
 }
 
 .solution-description {
