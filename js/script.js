@@ -92,9 +92,9 @@ const websiteData = {
 
     // Contact Information
     contact: {
-        email: "hello@keysolutions.com",
-        phone: "+1 (555) 123-4567",
-        address: "123 Innovation Drive, Tech City, TC 12345"
+        email: "keysolutions.com",
+        phone: "",
+        address: "Pasig City, Metro Manila, Philippines"
     }
 };
 
@@ -165,6 +165,7 @@ function generateContact() {
                 <a href="mailto:${data.email}" class="contact-value">${data.email}</a>
             </div>
         </div>
+        <!--
         <div class="contact-item">
             <div class="contact-icon">
                 <i class="bi bi-telephone"></i>
@@ -174,6 +175,7 @@ function generateContact() {
                 <a href="tel:${data.phone}" class="contact-value">${data.phone}</a>
             </div>
         </div>
+        -->
         <div class="contact-item">
             <div class="contact-icon">
                 <i class="bi bi-geo-alt"></i>
