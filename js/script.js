@@ -92,7 +92,7 @@ const websiteData = {
 
     // Contact Information
     contact: {
-        email: "keysolutions.com",
+        email: "inquiry@keysolutionsph.com",
         phone: "",
         address: "Pasig City, Metro Manila, Philippines"
     }

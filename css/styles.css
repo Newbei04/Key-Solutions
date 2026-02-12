@@ -206,6 +206,11 @@ section {
     margin-bottom: 60px;
 }
 
+#statsContainer{
+    justify-content: center;
+    align-items: center;
+}
+
 .stat-card {
     text-align: center;
     padding: 30px;
