@@ -3,7 +3,7 @@ const websiteData = {
     aboutUs: {
         description: "Key Solutions is a leading technology partner dedicated to transforming businesses through innovative digital solutions. With over 15 years of experience, we've helped hundreds of organizations across various industries achieve their digital transformation goals.",
         stats: [
-            { number: "3", label: "Major Continets" },
+            { number: "3", label: "Major Continents" },
             { number: "16+", label: "Countries Deployed" },
         ]
     },

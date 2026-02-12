@@ -224,7 +224,7 @@ section {
 .stat-card:hover {
     background: rgba(59, 130, 246, 0.1);
     border-color: rgba(59, 130, 246, 0.2);
-    transform: translateY(-5px);
+    /* transform: translateY(-5px); */
 }
 
 .stat-number {
@@ -261,7 +261,6 @@ section {
     background: rgba(59, 130, 246, 0.1); /* highlight */
     border-color: rgba(59, 130, 246, 0.4);
     box-shadow: 0 10px 25px rgba(59, 130, 246, 0.2);
-    /* removed transform */
 }
 
 .solution-icon {
@@ -380,7 +379,7 @@ section {
 .why-card:hover {
     background: rgba(59, 130, 246, 0.05);
     border-color: rgba(59, 130, 246, 0.2);
-    transform: translateX(5px);
+    /* transform: translateX(5px); */
 }
 
 .why-number {
