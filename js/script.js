@@ -2,6 +2,7 @@ const websiteData = {
     // About Us Section Data
     aboutUs: {
         description: "Key Solutions, Inc. is a premier IT solutions provider, specializing in innovative and efficient technology solutions for telecom companies, educational institutions, and government institutions. With a strong focus on digital transformation, we deliver cutting-edge systems that enhance business operations, improve customer engagement, and drive seamless digital transactions.",
+        description1: "Our system are successfully deployed across market in the Middle East, North Africa, and South Asia, adapting to diverse regulatory and cultural requirements.",
         stats: [
             { number: "3", label: "Major Continents" },
             { number: "16+", label: "Countries Deployed" },
@@ -102,7 +103,8 @@ const websiteData = {
 // Generate About Section
 function generateAbout() {
     document.getElementById('aboutDescription').textContent = websiteData.aboutUs.description;
-    
+    document.getElementById('aboutDescription1').textContent = websiteData.aboutUs.description1;
+
     const statsContainer = document.getElementById('statsContainer');
     statsContainer.innerHTML = websiteData.aboutUs.stats.map(stat => `
         <div class="col-md-6 col-lg-3">
