@@ -59,14 +59,14 @@ const websiteData = {
             features: ["Hospital Integration", "On-site Issuance", "Digital Financial Services"]
         },
         {
-            icon: "bi-heart-pulse-fill",
+            icon: "bi-person-vcard-fill",
             title: "Multi-Purpose LGU cards",
             client: "City of Makati and City of Manila",
             description: "Citizen ID system combining biometrics, payments, and access to city services. ",
             features: ["KYC & Biometrics", "Secure On-site Issuance", "Financial Inclusion"]
         },
         {
-            icon: "bi-person-vcard-fill",
+            icon: "bi-geo-alt-fill",
             title: "GPS Tracking System",
             client: "I-Foods Group",
             description: "Real-time fleet and asset monitoring with geofencing, history playback, and alerts.",
