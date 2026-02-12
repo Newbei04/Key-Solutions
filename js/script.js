@@ -127,7 +127,7 @@ function generateSolutions() {
                     <h3 class="solution-title">${solution.title}</h3>
                 </div>
 
-                ${solution.client ? `<span class="solution-client">${solution.client}</span>` : ''}
+                <!-- ${solution.client ? `<span class="solution-client">${solution.client}</span>` : ''} -->
                 <p class="solution-description">${solution.description}</p>
                 <ul class="solution-features">
                     ${solution.features.map(feature => `<li>${feature}</li>`).join('')}
