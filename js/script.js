@@ -1,7 +1,7 @@
 const websiteData = {
     // About Us Section Data
     aboutUs: {
-        description: "Key Solutions is a leading technology partner dedicated to transforming businesses through innovative digital solutions. With over 15 years of experience, we've helped hundreds of organizations across various industries achieve their digital transformation goals.",
+        description: "Key Solutions, Inc. is a premier IT solutions provider, specializing in innovative and efficient technology solutions for telecom companies, educational institutions, and government institutions. With a strong focus on digital transformation, we deliver cutting-edge systems that enhance business operations, improve customer engagement, and drive seamless digital transactions.",
         stats: [
             { number: "3", label: "Major Continents" },
             { number: "16+", label: "Countries Deployed" },
@@ -77,24 +77,24 @@ const websiteData = {
     // Why Choose Us Section Data
     whyChooseUs: [
         {
-            title: "Security by Design",
-            description: "End-to-end encryption, biometric integration, and banking-grade security standards."
+            title: "Industry Expertise",
+            description: "Years of experience in delivering IT solutions for telecom, education, and government sectors"
         },
         {
-            title: "Proven Scale",
-            description: "Handling millions of transactions daily accross 16 countries and major telco networks."
+            title: "Customized Solutions ",
+            description: "Tailored systems to meet the specific needs of our clients"
         },
         {
-            title: "Rapid Deployment",
-            description: "Modular architecture allows fast implementation and seamless legacy integration."
+            title: "Secure & Scalable Technology",
+            description: "Future-ready solutions with advanced security protocols"
         }
     ],
 
     // Contact Information
     contact: {
         email: "inquiry@keysolutionsph.com",
-        phone: "",
-        address: "Pasig City, Metro Manila, Philippines"
+        phone: "+63 917 820 8246",
+        address: "Banner Plasticard, Inc. Compound Amang Rodriguez Avenue, Santolan, Pasig City 1611 Philippines"
     }
 };
 
@@ -165,7 +165,6 @@ function generateContact() {
                 <a href="mailto:${data.email}" class="contact-value">${data.email}</a>
             </div>
         </div>
-        <!--
         <div class="contact-item">
             <div class="contact-icon">
                 <i class="bi bi-telephone"></i>
@@ -175,7 +174,6 @@ function generateContact() {
                 <a href="tel:${data.phone}" class="contact-value">${data.phone}</a>
             </div>
         </div>
-        -->
         <div class="contact-item">
             <div class="contact-icon">
                 <i class="bi bi-geo-alt"></i>

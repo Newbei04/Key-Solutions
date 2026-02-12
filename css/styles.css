@@ -458,6 +458,19 @@ section {
     padding: 40px;
 }
 
+.contact-footer-text {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #e2e8f0;
+    letter-spacing: 0.02em;
+}
+
+.contact-footer-text span {
+    color: var(--light-blue);
+}
+
 .form-control {
     background: rgba(255, 255, 255, 0.05) !important;
     border: 1px solid rgba(255, 255, 255, 0.1) !important;
